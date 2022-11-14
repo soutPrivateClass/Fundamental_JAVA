@@ -6,6 +6,15 @@ import java.io.FileOutputStream;
 
 public class ByteStream {
     public static void main(String[] args) throws FileNotFoundException, java.io.IOException {
+        
+        // Ada 2 macam dalam hal ini yaitu :
+        // 1. Byte Strem = Biasanya menggunakan FileInputStream & FileOutputStream
+        // 2. Character Stream = Digunakan untuk file yang mengandung font Internasional Biasanya menggunakan FileReader & FileWriter 
+        
+        // untuk cara implementasinya sama saja
+        
+        // Byte stream biasa menggunakan -> FileInputStream & FileOutputStream
+        // Character stream biasa menggunakan -> FileReader & FileWriter
 
         // Byte Stream
         // Perkarakter akan diambil / dibaca sebagai byte
