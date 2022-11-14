@@ -6,8 +6,7 @@ public class BufferedByteStream {
     public static void main(String[] args) throws Exception {
 
         // Buffered Byte Stream adalah metode membaca & menulis file melalui memory
-        // sehingga lebih efisien dan lebih cepat dibanding dengan membaca langsung dari
-        // file
+        // sehingga lebih efisien dan lebih cepat dibanding dengan membaca langsung dari file
 
         // Contoh :
         FileInputStream byteIn = new FileInputStream("punyaku.txt");
